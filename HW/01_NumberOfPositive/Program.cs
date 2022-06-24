@@ -5,7 +5,7 @@ using System;
 using static System.Console;
 
 Clear();
-Write("Введите элементы массива через пробел: ");
+Write("Введите числа через пробел: ");
 int[] array = GetArrayFromString(ReadLine());
 WriteLine($"[{String.Join(", ", array)}] -> Количество положительных чисел = {NumberOfPositive(array)}");
 
